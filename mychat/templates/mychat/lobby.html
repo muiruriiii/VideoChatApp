@@ -1,0 +1,15 @@
+{% extends 'mychat/main.html' %}
+{% load static %}
+    {% block content %}
+    <main>
+
+        <div id="form-container">
+            <img id="logo" src="{% static 'images/chat_icon.png' %}" alt="Icon" />
+
+            <div>
+                <h1>Welcome to MyChat</h1>
+                <p>Group Video Calling Application Just For You</p>
+            </div>
+        </div>
+    </main>
+    {% endblock content %}
